@@ -933,7 +933,6 @@ void leerLineasArchivo(pnodo x[5],int i,string nombreArchivo)
       {
         linea[strlen(linea) - 1] = '\0';
       }
-      //insertarNodoFinal(x,i,linea);
     }
 
     if (feof(parchivo))
@@ -943,7 +942,7 @@ void leerLineasArchivo(pnodo x[5],int i,string nombreArchivo)
   }
 }
 
-void cargarArchivos(pnodo x[5])
+void cargarArchivos()
 {
   string y[5];
   y[0]="Arch1.txt";
@@ -954,7 +953,7 @@ void cargarArchivos(pnodo x[5])
 
   for (int i = 0; i < 5; i++)
   {
-    leerLineasArchivo(x,i,y[i]);
+    //leerLineasArchivo();
   }
 }
 
