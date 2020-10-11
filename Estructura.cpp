@@ -505,7 +505,7 @@ int main()
                             break;
                         
                         }
-                        if(opcionu==2)
+                        else if(opcionu==2)
                         {
 
                             ImprimirPaises (Estructura1);
@@ -525,7 +525,7 @@ int main()
                             
                             break;
                         }
-                        if(opcionu==3)//consultar conexinoes
+                        else if(opcionu==3)//consultar conexinoes
                         {
 
                             ImprimirPaises (Estructura1);
@@ -556,9 +556,25 @@ int main()
                             
                             break;
                         }
-                        if(opcionu==4)//Consultar trenes
+                        else if(opcionu==4)//Consultar trenes
                         {
                             cout << "\nLa identificacion introducida no existe\n";
+                        }
+                        else if(opcionu==5)//Consultar precios
+                        {
+                            cout << "\nLa identificacion introducida no existe\n";
+                        }
+                        else if(opcionu==6)//Consultar asientos disponibles de un tren
+                        {
+                            cout << "\nLa identificacion introducida no existe\n";
+                        }
+                         else if(opcionu==7)//Consultar asientos disponibles de un tren
+                        {
+                            cout << "\nLa identificacion introducida no existe\n";
+                        }
+                         else 
+                         {
+                            cout << "\nDebe seleccionar una opcion\n";
                         }
                     }
                 }
