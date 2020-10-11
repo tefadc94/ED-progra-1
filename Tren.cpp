@@ -15,3 +15,7 @@ Tren::Tren()
 Tren::~Tren()
 {
 }
+void Conexion::Mostrar()
+    {
+        std::cout << "Codigo: " << codigo <<"Nombre: "<< nombre <<"Asientos: "<< asientos << "\n\n";
+    }

@@ -393,7 +393,7 @@ void Trabajar()
     CargarArchivos();
 }
 
- void ImprimirPaises (ListaDobleCircularGenerica<Pais> *listaPaises)
+void ImprimirPaises (ListaDobleCircularGenerica<Pais> *listaPaises)
  {
      Nodo<Pais> *aux = listaPaises->getPrimero();
      if (!aux)
@@ -412,7 +412,7 @@ void Trabajar()
      }    
  }
  
- void ImprimirConexiones (ListaDobleGenerica<Conexion> *listaConexiones)
+void ImprimirConexiones (ListaDobleGenerica<Conexion> *listaConexiones)
  {
      Nodo<Conexion> *aux = listaConexiones->getPrimero();
      if (!aux)
@@ -433,7 +433,7 @@ void Trabajar()
  }
 
 
- void ImprimirCiudades (ListaDobleCircularGenerica<Ciudad> *listaCiudades)
+void ImprimirCiudades (ListaDobleCircularGenerica<Ciudad> *listaCiudades)
  {
      Nodo<Ciudad> *aux = listaCiudades->getPrimero();
      if (!aux)
@@ -546,7 +546,7 @@ int main()
                                 }
                                 else
                                 {
-                                    cout << "\nLa ciudad introducido no existe\n";
+                                    cout << "\nLa ciudad introducida no existe\n";
                                     
                                 }
                             else
@@ -555,6 +555,10 @@ int main()
                             }
                             
                             break;
+                        }
+                        if(opcionu==4)//Consultar trenes
+                        {
+                            cout << "\nLa identificacion introducida no existe\n";
                         }
                     }
                 }

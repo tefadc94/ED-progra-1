@@ -1,4 +1,3 @@
-#ifndef __CONEXION_H__
 #define __CONEXION_H__
 #include <iostream>
 #include <vector>
