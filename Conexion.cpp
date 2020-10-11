@@ -7,7 +7,7 @@ Conexion::Conexion(int codPais, int codCiudad, int codigoCo, int codPais2, int c
     codigo=codigoCo;
     tiempo=horas;
 }
-ffdbfg
+
 Conexion::Conexion()
 {
 }

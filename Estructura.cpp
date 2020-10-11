@@ -536,8 +536,19 @@ int main()
                             {
                                 Pais paisEncontrado = Estructura1->Encontrado (paisBuscar);
                                 ImprimirCiudades(paisEncontrado.listaCiudades);
-                                
-                            }
+                                cout << "\nIngrese el codigo de ciudad: ";
+                                cin >> opcionciudad;
+                                Ciudad ciudadBuscar = {0,opcionciudad,""};
+                                if (Estructura1->Contiene (ciudadBuscar))
+                                {
+                                    Ciudad ciudadEncontrado = Estructura1->Encontrado (ciudadBuscar);
+                                    ImprimirConexiones(ciudadEncontrado.listaConexiones); 
+                                }
+                                else
+                                {
+                                    cout << "\nLa ciudad introducido no existe\n";
+                                    
+                                }
                             else
                             {
                                 cout << "\nEl pais introducido no existe\n";
